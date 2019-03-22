@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="card art.css">
+    <script src="Scard.js"></script>
+    <title>Six Card Sweep! [A Matching Game]</title>
+</head>
+<body onload="my_java()">
+    <h4>Long ago, before 789, there was...</h4>
+    <h1>Six Card Sweep!</h1>
+    <p>a matching game</p>
+    <p>Win to unlock more levels!</p>
+    <button onclick ="reset_cards()">Start a New Game!</button>
+    <p>Please scroll down and start the game :)</p>
+    <h2 id="Score">0</h2>
+    <table id="Six Card Sweep" onclick="clicked_card()">
+        <tr>
+            <td class="Container" id="container_1">
+                <p class ="Card_Back">Check</p>
+                <img src="" alt="" id="image_1">
+            </td>
+            <td class="Container" id="container_2">
+                <p class ="Card_Back">Check</p>
+                <img src="" alt="" id="image_2">
+            </td>
+            <td class="Container" id="container_3">
+                <p class ="Card_Back">Check</p>
+                <img src="" alt="" id="image_3">
+            </td>        
+        </tr>
+        <tr>
+            <td class="Container" id="container_4">
+                <p class ="Card_Back">Check</p>
+                <img src="" alt="" id="image_4">
+            </td>
+            <td class="Container" id="container_5">
+                <p class ="Card_Back">Check</p>
+                <img src="" alt="" id="image_5">
+            </td>
+            <td class="Container" id="container_6">
+                <p class ="Card_Back">Check</p>
+                <img src="" alt="" id="image_6">
+            </td>       
+    </table>
+</body>
+</html>
